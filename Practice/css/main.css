@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: aliceblue;
+}
+.middle{
+    width: 1200px;
+    margin: 0 auto;
+    background: white;
+    min-height: 1000px;
+    _height: 1000px;
+}
+.wrap{
+    width: 1000px;;
+    margin: 0 auto;
+    min-height: 1000px;
+    _height: 1000px;
+}
+
+.logo{
+    width: 1000px;
+    height: 80px;
+    /*background: pink;*/
+}
+.logo .logo_pic{
+    float: left;
+    padding: 5px 10px;
+}
+.logo .nav li{
+    list-style: none;
+    width: 100px;
+    height: 70px;
+    float: left;
+    line-height: 70px;
+    text-align: center;
+    margin-top: 5px;
+}
+.logo .nav li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+.logo .nav li a:hover{
+    background: #b40000;
+}
+.ad{
+    width: 1000px;
+    height: 310px;
+    overflow: hidden;
+}
+
+.news{
+    width: 1000px;
+    height: 20px;
+    margin-top: 15px;
+}
+.news_left{
+    float: left;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    background: darkred;
+    line-height: 35px;
+    color: white;
+}
+.news_right{
+    float: left;
+    width: 840px;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 10px;
+    background: #555555;
+    color: white;
+}
+.course{
+    width: 1000px;
+    height: 160px;
+    /*background: yellow;*/
+    margin-top: 30px;
+}
+.course_left,.course_mid,.course_right{
+    height: 180px;
+    float: left;
+}
+
+.course_mid{
+    margin: 0 5px;
+}
+.course span{
+    display: block;
+    text-align: center;
+    border: 1px solid #E8E8E8;
+    padding: 3px 0;
+}
+
+.main{
+    width: 1000px;
+    height: 422px;
+}
+.main .main_left,.main .main_mid,.main .main_right{
+    width: 324px;
+    height: 400px;
+    border:1px solid #E8E8E8;
+    float: left;
+}
+.main .main_mid{
+    margin: 0 11px;
+}
+.main .main_left .main_left_top,.main .main_mid .main_mid_top,.main .main_right .main_right_top{
+    width: 325px;
+    height: 40px;
+    background: darkred;
+    color: white;
+    line-height: 40px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.main .main_left .main_left_bottom{
+    width: 325px;
+    height: 360px;
+    /*background: pink;*/
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.main .main_left .main_left_bottom .main_left_bottom_box{
+    height: 110px;
+    width: 305px;
+    /*background: yellow;*/
+    margin-bottom: 10px;
+    border-bottom:1px solid #cccccc;
+}
+.main .main_left .main_left_bottom .main_left_bottom_box .date{
+    width: 61px;
+    height: 75px;
+    background: darkred;
+    float: left;
+    line-height: 75px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+.main .main_left .main_left_bottom .main_left_bottom_box .content{
+    width: 244px;
+    height: 105px;
+    /*background: purple;*/
+    float: left;
+    font-size: 13px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+.main .main_left .main_left_bottom .main_left_bottom_box .content p{
+    padding-top: 10px;
+}
+
+.main .main_mid img{
+    width: 285px;
+    margin: 20px 20px 10px 20px;
+}
+.main .main_mid p{
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.main .main_right .teacher,.main .main_right .website{
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.main .main_right .website{
+    margin-top: 40px;
+}
+
+.footer{
+    width: 1000px;
+    height: 60px;
+    background: #e7e7e7;
+    margin-top: 5px;
+    text-align: center;
+}
+.footer p{
+    line-height: 60px;
+    font-weight: bold;
+    font-size: 14px;
+}
