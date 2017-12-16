@@ -1,1 +1,1 @@
-# imoocPractice
+# Practices
